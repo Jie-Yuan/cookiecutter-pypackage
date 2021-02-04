@@ -61,7 +61,6 @@ setup(
     packages=find_packages(include=['{{ cookiecutter.project_slug }}', '{{ cookiecutter.project_slug }}.*']),
 
     test_suite='tests',
-    tests_require=test_requirements,
     url='https://github.com/Jie-Yuan/{{ cookiecutter.project_slug }}',
     version=version, # '{{ cookiecutter.version }}',
     zip_safe=False,
